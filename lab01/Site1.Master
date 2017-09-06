@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="lab01.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server" method="get">
+        <header>
+            <asp:HyperLink id="home" runat="server" NavigateUrl="./Home.aspx" >HOME</asp:HyperLink>
+            <asp:HyperLink id="HyperLink1" runat="server" NavigateUrl="./Register.aspx" > |  Register</asp:HyperLink>
+            <asp:HyperLink id="HyperLink2" runat="server" NavigateUrl="./View.aspx" >  |  View</asp:HyperLink>
+            
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+
+        </header>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>
