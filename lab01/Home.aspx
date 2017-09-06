@@ -6,7 +6,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Welcome to CSD 3303</h1>
-    <asp:Label ID="Label1" runat="server" Text="enter your first name" ForeColor="#009933"></asp:Label>
     &nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TextBox1" runat="server" BorderStyle="Outset"></asp:TextBox>
     <br />
