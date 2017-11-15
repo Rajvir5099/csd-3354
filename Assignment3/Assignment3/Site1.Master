@@ -8,9 +8,13 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body style="background-color:#8aba32">
+    <div style="background-color:gray; padding:20px">
     <asp:HyperLink NavigateUrl="Home.aspx" runat="server">Home</asp:HyperLink> | 
-        <asp:HyperLink NavigateUrl="about_us.aspx" runat="server">About</asp:HyperLink>
+    <asp:HyperLink NavigateUrl="about_us.aspx" runat="server">About</asp:HyperLink>|
+    <asp:HyperLink NavigateUrl="register.aspx" runat="server">Register</asp:HyperLink>|
+    <asp:HyperLink NavigateUrl="login.aspx" runat="server">Login</asp:HyperLink>
+       </div>
     <form id="form1" runat="server">
     <div>
         
